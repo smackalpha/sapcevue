@@ -1,78 +1,87 @@
-# Getting Started with Create React App
+# SpaceVue  Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Development](#development)
+  - [Design Mockup](#design-mockup)
+  - [Implementation](#implementation)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Available Scripts
+## Introduction
+SpaceVue is a dashboard application designed for monitoring space missions. It displays recent space mission data, including mission names, launch companies, locations, dates, times, rocket types, prices, and mission outcomes.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Prerequisites
+- Node.js and npm installed on your machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/Afshana77/space-vue.git
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigate to the project directory:
+cd spacevue
 
 
+### Install dependencies:
+npm install
 
-### installation of the required packages
-   "ag-grid-community": "^31.0.1",
-    "ag-grid-react": "^31.0.1", - for the grid table
-    "chart.js": "^4.4.1", - for the chart
- "react-router-dom": "^6.21.1",  - for navigation
+### Project Structure
+The project follows a standard structure:
+
+spacevue/
+|-- public/
+|-- src/
+|   |-- components/
+|   |   |-- Login.js
+|   |   |-- Login.css
+|   |   |-- Dashboard.css
+|   |   |-- Dashboard.js
+|   |-- App.js
+|   |-- App.css
+|   |-- index.js
+|-- .gitignore
+|-- package.json
+|-- README.md
+|-- (Other configuration files)
+
+
+### Development
+Design Mockup
+Create a low-fidelity mockup of the dashboard using a design tool such as Figma or Sketch. The mockup should indicate the placement of AG-Grid tables and charts.
+
+### Implementation
+Implement a mock login page with a simple form and hardcoded login functionality.
+Build a dashboard with React using AG-Grid to display space missions in a tabular format.
+Create at least one chart displaying data from the missions (e.g., a pie chart showing the proportion of successful missions).
+Technologies Used
+React.js
+AG-Grid
+Chart.js
+(Include any other libraries or tools used)
+Features
+User authentication with a mock login page.
+Display of space mission data using AG-Grid.
+Visualization of mission outcomes with charts.
+Usage
+Run the development server:
+npm start
+
+### This will start the application on http://localhost:3000.
+
+Contributing
+Fork the project.
+Create a new branch: git checkout -b feature-name.
+Commit your changes: git commit -m 'Add some feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
