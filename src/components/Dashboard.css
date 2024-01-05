@@ -1,0 +1,20 @@
+/* components/Dashboard.css */
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .ag-theme-alpine {
+    margin-top: 20px;
+  }
+  .chart-container {
+    margin: auto;
+    height: 40%;
+     width: 40%;
+    
+  }
+  @media screen and (max-width: 768px) {
+    .chart-container {
+      width: 100%;
+    }
+  }
