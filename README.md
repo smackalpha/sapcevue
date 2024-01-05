@@ -61,20 +61,20 @@ Design Mockup
 Create a low-fidelity mockup of the dashboard using a design tool such as Figma or Sketch. The mockup should indicate the placement of AG-Grid tables and charts.
 
 ### Implementation
-Implement a mock login page with a simple form and hardcoded login functionality.
-Build a dashboard with React using AG-Grid to display space missions in a tabular format.
-Create at least one chart displaying data from the missions (e.g., a pie chart showing the proportion of successful missions).
-Technologies Used
+* Implement a mock login page with a simple form and hardcoded login functionality.
+* Build a dashboard with React using AG-Grid to display space missions in a tabular format.
+* Create at least one chart displaying data from the missions (e.g., a pie chart showing the proportion of successful missions).
+### Technologies Used
 React.js
 AG-Grid
 Chart.js
 (Include any other libraries or tools used)
-Features
+### Features
 User authentication with a mock login page.
 Display of space mission data using AG-Grid.
 Visualization of mission outcomes with charts.
 Usage
-Run the development server:
+### Run the development server:
 npm start
 
 ### This will start the application on http://localhost:3000.
