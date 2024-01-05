@@ -68,7 +68,7 @@ Create a low-fidelity mockup of the dashboard using a design tool such as Figma 
 React.js
 AG-Grid
 Chart.js
-(Include any other libraries or tools used)
+React router dom for the navigtion
 ### Features
 User authentication with a mock login page.
 Display of space mission data using AG-Grid.
