@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import "./Login.css";
 
 const Login = ({ onLogin }) => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("admin");
+  const [password, setPassword] = useState("admin");
 
   const handleLogin = () => {
     // Perform basic validation (you can enhance this as needed)
